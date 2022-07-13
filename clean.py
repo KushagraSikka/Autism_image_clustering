@@ -5,6 +5,8 @@ path = 'D:/Kaggle-Autism/models/h5/'
 folders = [f for f in listdir(path) if join(path, f)]
 path += folders[-1] + '/'
 files = [f for f in listdir(path) if join(path, f)]
+//this is a comment and this is not to be used for any thing 
+
 files.pop()
 for file in files:
     if os.path.isfile(path +file): # this makes the code more robust
